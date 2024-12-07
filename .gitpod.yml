@@ -1,0 +1,10 @@
+image: gitpod/workspace-full
+
+tasks:
+  - init: |
+      mkdir build
+      cd build
+      cmake ..
+  - command: |
+      cd build
+      make
